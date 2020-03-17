@@ -10,4 +10,6 @@ In mathematics, a self-similar object is exactly or approximately similar to a p
 
 ## [SierpinskiTriangle](https://github.com/willstall/thebookofshaders/blob/master/14/SierpinskiTriangle.md)
 
-![a0460233359_10](https://user-images.githubusercontent.com/16706911/76864699-c80dd200-6876-11ea-8ddc-18286fef2f36.jpg)
+![1200px-Sierpinski_triangle (1)](https://user-images.githubusercontent.com/16706911/76865980-b9c0b580-6878-11ea-913e-b4ab0964988c.png)
+
+
