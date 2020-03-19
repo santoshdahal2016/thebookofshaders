@@ -10,7 +10,6 @@ vec4 result;
 
 void main() {
     vec2 fragCoord = gl_FragCoord.xy/u_resolution.xy;
-
     fragCoord.x-=.5*fragCoord.y; 
     for(int i = 0; i < 9; i++)
         fragCoord = 2.*fract(fragCoord),
