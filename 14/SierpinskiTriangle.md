@@ -12,7 +12,7 @@ there are severals to Implement Sierpinski Triangle
 # Iteration
 like above description you can draw triangles step by step:
 
-<div class="codeAndCanvas" data="SierpinskiTriangleIteration.frag"></div>
+<div class="codeAndCanvas" data="SierpinskiTriangleDrawiteration.frag"></div>
 
 another way is tiling triangles and add them together:
 
