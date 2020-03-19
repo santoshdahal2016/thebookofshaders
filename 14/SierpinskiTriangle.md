@@ -18,7 +18,7 @@ another way is tiling triangles and add them together:
 
 <div class="codeAndCanvas" data="SierpinskiTriangleIteration.frag"></div>
 
-![Untitled (2)](https://user-images.githubusercontent.com/16706911/77069973-a50e2a00-69fe-11ea-93b5-8d1066b75c47.png)
+![SierpinskiSteps](https://user-images.githubusercontent.com/16706911/77071996-392dc080-6a02-11ea-952f-6e4e41cae086.png)
 
 
 
