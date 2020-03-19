@@ -10,13 +10,24 @@ The Sierpinski triangle activity illustrates the fundamental principles of fract
 there are severals to Implement Sierpinski Triangle
 
 # Iteration
+like above description you can draw triangles step by step:
 
 <div class="codeAndCanvas" data="SierpinskiTriangleIteration.frag"></div>
 
-![Untitled (1)](https://user-images.githubusercontent.com/16706911/77069795-53659f80-69fe-11ea-8968-e0ea45c2e84c.png)
+another way is tiling triangles and add them together:
+
+<div class="codeAndCanvas" data="SierpinskiTriangleIteration.frag"></div>
+
+![Untitled (2)](https://user-images.githubusercontent.com/16706911/77069973-a50e2a00-69fe-11ea-93b5-8d1066b75c47.png)
 
 
-# Bitwise
+
+# Binary operation
+
+we can achieve sierpinski with binary operation on coordinates.
+but before using binary operation you should know concept of Pascal’s Triangle.
+
+## Pascal’s Triangle
 
 Pascal’s Triangle is a number pyramid in which every number is the sum of the two numbers above. 
 
@@ -36,5 +47,4 @@ Bitwise AND of 4-bit integers:
 ```
 ![image](https://user-images.githubusercontent.com/16706911/76884322-c6ea9e00-6892-11ea-9499-fb99adae747f.png)
 
-as you see we can achieve sierpinski with binary operation on coordinates:
 <div class="codeAndCanvas" data="SierpinskiTriangleBitwise.frag"></div>
