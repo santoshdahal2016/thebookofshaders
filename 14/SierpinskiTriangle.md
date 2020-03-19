@@ -22,7 +22,9 @@ another way is tiling triangles and add them together:
 
 ![SierpinskiSteps](https://user-images.githubusercontent.com/16706911/77071996-392dc080-6a02-11ea-952f-6e4e41cae086.png)
 
+short version:
 
+<div class="codeAndCanvas" data="SierpinskiTriangleShortVersion.frag"></div>
 
 # Binary operation
 
@@ -54,7 +56,22 @@ How it works!?
 
 ![Example](https://user-images.githubusercontent.com/16706911/77084845-b7935e00-6a14-11ea-97a6-034742388aeb.png)
 
-<div class="codeAndCanvas" data="SierpinskiTriangleBitwise.frag"></div>
+```
 
+#ifdef GL_ES
+precision mediump float;
+#endif
 
+uniform vec2 u_resolution;
+uniform vec2 u_mouse;
+uniform float u_time;
+vec4 result;
 
+void main() {
+vec2 st = gl_FragCoord.xy/u_resolution.xy;
+for(int i =0;i < 5;i++)
+st = 3.*fract(st),
+result += abs(st.x-1.5)<0.5&&abs(st.y-1.5)<0.5? 1. : 0.;
+    gl_FragColor = result;
+}
+```
