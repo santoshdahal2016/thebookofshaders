@@ -11,6 +11,9 @@ there are severals to Implement Sierpinski Triangle
 
 # Iteration
 
+<div class="codeAndCanvas" data="SierpinskiTriangleIteration.frag"></div>
+
+![Untitled (1)](https://user-images.githubusercontent.com/16706911/77069795-53659f80-69fe-11ea-8968-e0ea45c2e84c.png)
 
 
 # Bitwise
