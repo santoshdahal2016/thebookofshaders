@@ -1,4 +1,4 @@
-# Sierpinski
+# Sierpinski Triangle
 
 The Sierpinski triangle is a fractal described in 1915 by Waclaw Sierpinski. It is a self similar structure that occurs at different levels of iterations, or magnifications.
 The Sierpinski triangle activity illustrates the fundamental principles of fractals – how a pattern can repeat again and again at different scales and how this complex shape can be formed by simple repetition.
@@ -49,9 +49,11 @@ Bitwise AND of 4-bit integers:
 ```
 ![image](https://user-images.githubusercontent.com/16706911/76884322-c6ea9e00-6892-11ea-9499-fb99adae747f.png)
 
-<div class="codeAndCanvas" data="SierpinskiTriangleBitwise.frag"></div>
-
 How it works!?
 
 ![Example](https://user-images.githubusercontent.com/16706911/77084845-b7935e00-6a14-11ea-97a6-034742388aeb.png)
+
+<div class="codeAndCanvas" data="SierpinskiTriangleBitwise.frag"></div>
+
+
 
