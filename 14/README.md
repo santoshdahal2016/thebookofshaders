@@ -8,13 +8,14 @@ fractals are geometric patterns in which every smaller part of the structure is 
 In mathematics, a self-similar object is exactly or approximately similar to a part of itself (i.e. the whole has the same shape as one or more of the parts).
 
 
+![image](https://user-images.githubusercontent.com/16706911/76868340-fe9a1b80-687b-11ea-8134-16211c8397db.png)
+
+The above image of Benedict Cumberbatch seemingly achieving Dactyl Fractal Consciousness are from the ["Open Your Eye"](https://www.youtube.com/watch?v=ayhTVShJCt0&start=115) scene in 2016's Dr. Strange (which I only recently watched
+
 ![a2](https://user-images.githubusercontent.com/16706911/76863425-b62b2f80-6874-11ea-9ec2-f64c20cac3e2.jpg)
 
 Matryoshka dolls are a set of wooden dolls of decreasing size placed one inside another.
 
-![image](https://user-images.githubusercontent.com/16706911/76868340-fe9a1b80-687b-11ea-8134-16211c8397db.png)
-
-The above image of Benedict Cumberbatch seemingly achieving Dactyl Fractal Consciousness are from the ["Open Your Eye"](https://www.youtube.com/watch?v=ayhTVShJCt0&start=115) scene in 2016's Dr. Strange (which I only recently watched
 
 
 
