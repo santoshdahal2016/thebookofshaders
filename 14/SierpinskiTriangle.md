@@ -25,3 +25,6 @@ Bitwise AND of 4-bit integers:
 0101 (decimal 5) AND 0011 (decimal 3) = 0001 (decimal 1)
 ```
 ![image](https://user-images.githubusercontent.com/16706911/76884322-c6ea9e00-6892-11ea-9499-fb99adae747f.png)
+
+
+<div class="codeAndCanvas" data="SierpinskiTriangleBitwise.frag"></div>
