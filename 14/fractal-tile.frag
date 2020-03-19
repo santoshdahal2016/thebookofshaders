@@ -13,7 +13,8 @@ uniform float u_time;
 
 float random(vec2 st){ return fract(sin(dot(st.xy ,vec2(12.9898,78.233))) * 43758.5453); }
 
-vec2 tileFractal(vec2 st, int scale, int levels) {
+vec2 tileFractal(vec2 st, int scale) {
+    const int levels = 2;
     for (int i = 0; i < levels; i++){
         st *= float(scale);
         vec2 i_st = floor(st);
@@ -53,7 +54,7 @@ void main() {
 	vec2 st = gl_FragCoord.xy/u_resolution;
     vec3 color = vec3(0.0);
 
-    st = tileFractal(st,3,2);
+    st = tileFractal(st,3);
 
    	float pct = 0.;
     pct = circle(st,.999);
@@ -65,3 +66,4 @@ void main() {
 
     gl_FragColor = vec4(color,1.);
 }
+
