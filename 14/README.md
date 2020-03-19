@@ -22,7 +22,7 @@ The above image of Benedict Cumberbatch seemingly achieving Dactyl Fractal Consc
 
 <img src = https://user-images.githubusercontent.com/16706911/76866147-f2f92580-6878-11ea-8802-5279bafff148.png width = 25% height = 25%>
 
-## [SierPinski Carpet](https://github.com/willstall/thebookofshaders/blob/master/14/SierpinskiCarpet.md)
+## [Sierpinski Carpet](https://github.com/willstall/thebookofshaders/blob/master/14/SierpinskiCarpet.md)
 
 <img src = https://user-images.githubusercontent.com/16706911/76880380-cfd87100-688c-11ea-9561-63c498c8aa33.png width = 25% height = 25%>
 
