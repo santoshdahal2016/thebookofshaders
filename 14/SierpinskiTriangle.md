@@ -32,8 +32,9 @@ but before using binary operation you should know concept of Pascal’s Triangle
 ## Pascal’s Triangle
 
 Pascal’s Triangle is a number pyramid in which every number is the sum of the two numbers above. 
-
-![PascalTriangleAnimated2](https://user-images.githubusercontent.com/16706911/76882629-2eebb500-6890-11ea-98f8-bbbb74f02188.gif)
+<p align="center">
+<img  src = "https://user-images.githubusercontent.com/16706911/76882629-2eebb500-6890-11ea-98f8-bbbb74f02188.gif" >
+</p>
 
 Pascal’s Triangle can be continued downwards forever. The Sierpinski pattern will continue, producing bigger and bigger triangles.
 
