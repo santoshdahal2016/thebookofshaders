@@ -7,6 +7,13 @@ The Sierpinski triangle activity illustrates the fundamental principles of fract
 
 ![Sierpinski Triangle](https://user-images.githubusercontent.com/16706911/76851352-5d509c80-685e-11ea-8028-7665835dca7d.png)
 
+there are severals to Implement Sierpinski Triangle
+
+# Iteration
+
+
+
+# Bitwise
 
 Pascal’s Triangle is a number pyramid in which every number is the sum of the two numbers above. 
 
@@ -26,5 +33,5 @@ Bitwise AND of 4-bit integers:
 ```
 ![image](https://user-images.githubusercontent.com/16706911/76884322-c6ea9e00-6892-11ea-9499-fb99adae747f.png)
 
-
+as you see we can achieve sierpinski with binary operation on coordinates:
 <div class="codeAndCanvas" data="SierpinskiTriangleBitwise.frag"></div>
