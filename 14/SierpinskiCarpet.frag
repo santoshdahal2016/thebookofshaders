@@ -5,12 +5,24 @@ precision mediump float;
 uniform vec2 u_resolution;
 uniform vec2 u_mouse;
 uniform float u_time;
-vec4 result;
 
 void main() {
     vec2 st = gl_FragCoord.xy/u_resolution.xy;
-    for(int i = 0; i < 5; i++)
-        st = 3.*fract(st),
-      result +=  abs(st.x-1.5)<.5&&abs(st.y-1.5)<.5? 1. : 0.;
-    gl_FragColor = result;
+
+    // try playing with the scale
+    float scale = 3.0;
+    float half_scale = scale * 0.5;
+
+    // try changing the depth
+    const int depth = 5;
+
+    float result;
+    for(int i = 0; i < depth; i++)
+    {
+      st = scale*fract(st);
+      vec2 a_st = abs(st-half_scale);
+      result += step(a_st.x,.5)*step(a_st.y,.5);
+    }
+
+    gl_FragColor = vec4(vec3(result),1.0);
 }
