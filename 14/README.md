@@ -26,6 +26,8 @@ Matryoshka dolls are a set of wooden dolls of decreasing size placed one inside 
 
 ## [Sierpinski Triangle](https://github.com/willstall/thebookofshaders/blob/master/14/SierpinskiTriangle.md)
 
+<div class="codeAndCanvas" data="SierpinskiTriangleShortVersion.frag"></div>
+
 <div class="codeAndCanvas" data="fractal-tile.frag"></div>
 
 <img src = https://user-images.githubusercontent.com/16706911/76866147-f2f92580-6878-11ea-8802-5279bafff148.png width = 25% height = 25%>

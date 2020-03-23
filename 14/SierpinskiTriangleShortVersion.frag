@@ -5,13 +5,19 @@ precision mediump float;
 uniform vec2 u_resolution;
 uniform vec2 u_mouse;
 uniform float u_time;
-vec4 result;
 
 void main() {
     vec2 fragCoord = gl_FragCoord.xy/u_resolution.xy;
+
+    // try commenting out the line below
     fragCoord.x-=.5*fragCoord.y; 
-    for(int i = 0; i < 9; i++)
-        fragCoord = 2.*fract(fragCoord),
-        result += fragCoord.x>=1.&&fragCoord.y>=1. ? 1. : 0.;
-    gl_FragColor = result;
+
+    float result;
+    for(int i = 0; i < 8; i++)
+    {
+        fragCoord = 2.*fract(fragCoord);
+        result += step(1.0,fragCoord.x)*step(1.0,fragCoord.y);
+    }
+
+    gl_FragColor = vec4(vec3(result),1.0);
 }
