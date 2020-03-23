@@ -25,7 +25,7 @@ void main() {
     //   vec2 a_st = abs(st-0.5);
     //   float d = length(a_st)+0.2;
     //   r *= step(d,0.5);
-    //   result +=  a_st.x<.5 && a_st.y<.5 ? 1. : 0.;
+    //   r +=  a_st.x<.5 && a_st.y<.5 ? 1. : 0.;
     }
 
     gl_FragColor = vec4(r,r,r,1.0);
