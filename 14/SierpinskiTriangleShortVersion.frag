@@ -7,16 +7,16 @@ uniform vec2 u_mouse;
 uniform float u_time;
 
 void main() {
-    vec2 fragCoord = gl_FragCoord.xy/u_resolution.xy;
+    vec2 st = gl_FragCoord.xy/u_resolution.xy;
 
     // try commenting out the line below
-    fragCoord.x-=.5*fragCoord.y; 
+    st.x-=.5*st.y; 
 
     float result;
     for(int i = 0; i < 8; i++)
     {
-        fragCoord = 2.*fract(fragCoord);
-        result += step(1.0,fragCoord.x)*step(1.0,fragCoord.y);
+        st = 2.*fract(st);
+        result += step(1.0,st.x)*step(1.0,st.y);
     }
 
     gl_FragColor = vec4(vec3(result),1.0);
