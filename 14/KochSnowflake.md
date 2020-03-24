@@ -7,3 +7,6 @@ The Koch snowflake is a fractal curve, also known as the Koch island, which was 
 ## Step 2
 <div class="codeAndCanvas" data="KochSnowflakeStep_2.frag"></div>
 
+## Step 3
+<div class="codeAndCanvas" data="KochSnowflakeStep_3.frag"></div>
+
