@@ -141,3 +141,37 @@ The Koch snowflake is a fractal curve, also known as the Koch island, which was 
 
 
 
+
+# Notes
+the term fractal was invented by Mandlebrot in an attempt to change how we look at equations at scale. He was upset about the idea of functions and arguments looking smooth when you zoomed into them. He wanted to see definition and results closer to reality. He wanted detail. and OHHH BOIIII, do fractals produce detail!
+
+fractals are dimensional, they are made up of complex numbers ( a real + imaginary number)
+
+When thinking of fractals as self-similar, but this only makes up a section of the world of fractals.
+
+We're going to look at a few famous fractals here and give resources and exercises to play with them.
+
+# Fractal Dimensions
+Fractals have dimension, well beyond our traditional understanding of 2d,3d and even 4d dimenions. Most of the time, visually, we're representing our fractals in either 2d or 3d, but they actually have a fractional dimension all their own. This, Dimensionality, it was makes these types of equations....fractals.
+
+
+
+# Create an Outline
+
+
+
+
+# Intro
+
+# Definition
+Fractals are beautifuly ornate structures created by rather simple pieces of iterated logic. The term Fractal was coined by Benoit Mandlebrot and they are often though of as the images of chaos. Mandlebroat wanted to explore the idea of having more resolution inside equations as you looker closer than the traditional smoother we see in most equations. Fractal forms are something you often seen in nature too such as seashells, mountains, clouds, and even coastlines. Fractals also play a big role in image compression techniques.
+
+# Dimensions
+Fractals have dimension beyond the typicaly 2d and 3d dimensions we're used to. In fact, when we visualize Fractals we're usually doing that in 2d using someting called Euler's Forumula. But, all fractals have their own dimensions and that's a very key characteristic for fractals. 
+
+# Koch Fractal Breakdown
+
+<div class="simpleFunction" data="
+y = step(0.0,1.0-abs(x));
+y = max(0.0,1.0-abs(x));
+"></div>
