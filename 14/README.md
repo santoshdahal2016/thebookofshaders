@@ -13,6 +13,11 @@ In mathematics, a self-similar object is exactly or approximately similar to a p
 
 The above image of Benedict Cumberbatch seemingly achieving Dactyl Fractal Consciousness are from the ["Open Your Eye"](https://www.youtube.com/watch?v=ayhTVShJCt0&start=115) scene in 2016's Dr. Strange (which I only recently watched
 
+![Matrix](https://user-images.githubusercontent.com/16706911/77425265-162f5200-6df0-11ea-8d21-34da17eaa581.png)
+
+The Matrix neo [architect scene](https://youtu.be/cHZl2naX1Xk)
+
+
 ![Matryoshka](https://user-images.githubusercontent.com/16706911/76863425-b62b2f80-6874-11ea-9ec2-f64c20cac3e2.jpg)
 
 Matryoshka dolls are a set of wooden dolls of decreasing size placed one inside another.
