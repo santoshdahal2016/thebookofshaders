@@ -8,7 +8,6 @@ fractals are geometric patterns in which every smaller part of the structure is 
 
 In mathematics, a self-similar object is exactly or approximately similar to a part of itself (i.e. the whole has the same shape as one or more of the parts).
 
-
 ![Open Your Eye](https://user-images.githubusercontent.com/16706911/76868340-fe9a1b80-687b-11ea-8134-16211c8397db.png)
 
 The above image of Benedict Cumberbatch seemingly achieving Dactyl Fractal Consciousness are from the ["Open Your Eye"](https://www.youtube.com/watch?v=ayhTVShJCt0&start=115) scene in 2016's Dr. Strange (which I only recently watched
@@ -17,6 +16,9 @@ The above image of Benedict Cumberbatch seemingly achieving Dactyl Fractal Consc
 
 The Matrix neo [architect scene](https://youtu.be/cHZl2naX1Xk).Architect is the 'father' of the Matrix. He's an entity from the machine world and he designed the original 'failed' Matrix and the current 'successful' one. 
 
+![Inception mirrors](https://user-images.githubusercontent.com/16706911/77426422-10d30700-6df2-11ea-92b0-43b4f9d1a712.png)
+
+Inception [mirror scene](https://youtu.be/q3tBBhYJeAw?t=22).Inception is a 2010 science fiction action film written and directed by Christopher Nolan, who also produced the film with his wife, Emma Thomas. 
 
 ![Matryoshka](https://user-images.githubusercontent.com/16706911/76863425-b62b2f80-6874-11ea-9ec2-f64c20cac3e2.jpg)
 
