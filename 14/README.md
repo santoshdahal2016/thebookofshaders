@@ -172,6 +172,8 @@ Fractals have dimension beyond the typicaly 2d and 3d dimensions we're used to. 
 # Koch Fractal Breakdown
 
 <div class="simpleFunction" data="
-y = step(0.0,1.0-abs(x));
+//y = step(0.0,1.0-abs(x));
 y = max(0.0,1.0-abs(x));
+y += max(0.,1.0-abs(x*2.0-3.0))*.5 +max(0.,1.0-abs(x*2.0+3.0))*.5;
+y += max(0.,1.0-abs(x*3.0-7.0))*.25 +max(0.,1.0-abs(x*3.0+7.0))*.25;
 "></div>
