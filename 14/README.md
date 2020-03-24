@@ -15,7 +15,7 @@ The above image of Benedict Cumberbatch seemingly achieving Dactyl Fractal Consc
 
 ![Matrix](https://user-images.githubusercontent.com/16706911/77425878-0b28f180-6df1-11ea-8023-991f9e62eb41.png)
 
-The Matrix neo [architect scene](https://youtu.be/cHZl2naX1Xk)
+The Matrix neo [architect scene](https://youtu.be/cHZl2naX1Xk).Architect is the 'father' of the Matrix. He's an entity from the machine world and he designed the original 'failed' Matrix and the current 'successful' one. 
 
 
 ![Matryoshka](https://user-images.githubusercontent.com/16706911/76863425-b62b2f80-6874-11ea-9ec2-f64c20cac3e2.jpg)
