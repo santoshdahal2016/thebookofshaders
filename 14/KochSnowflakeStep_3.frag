@@ -5,6 +5,7 @@ precision mediump float;
 uniform vec2 u_resolution;
 uniform vec2 u_mouse;
 uniform float u_time;
+const int iteration = 2;
 
 void main() {
     vec2 st = (gl_FragCoord.xy-0.5*u_resolution.xy)/u_resolution.y;
@@ -16,13 +17,16 @@ void main() {
  	
     float scale =1.;
     st.x += 0.5;
-    for(int i = 0; i < 2;i++){
+    for(int i = 0; i < iteration;i++){
+        
     scale *= 3.;    
+        
     st *= 3.;
     st.x -= 1.5;
            
     st.x = abs(st.x);
     st.x -= 0.5;
+        
     st -= n*min(0.,dot(st,n))*2.;        
     }    
     
