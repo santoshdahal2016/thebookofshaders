@@ -10,6 +10,7 @@ const int iteration = 3;
 float thickness =5.;
 float scale = 2.;
 
+
 vec2 GetAngle(float angle) {
     return vec2(sin(angle), cos(angle));
 }
@@ -25,16 +26,23 @@ void main() {
      //angle = mouse.x * PI;
      vec2 n = GetAngle(angle);
     
+     
+    #if 1
+    st.x += 0.5;  
+    #else
      st *= scale;
+    
      // Symmetry along x coordinate
      st.x = abs(st.x);  
      d = dot(st-vec2(.05,0.), n);
      // Masking triangle  
      st -= max(0.,d)*n*2.; 
-     st.x += 0.5;    
-    
-      //calculating tan to find out how much offset to be in the center
-      st.y += tan((5./6.)*PI)*.5;
+     
+   	  st.x += 0.5;    
+      //calculating tan to find out how should offset to be in the center
+      st.y += tan((5./6.)*PI)*.5; 
+	#endif
+
       n = GetAngle((2./3.)*PI);
     
       //Demonstrating reflection
